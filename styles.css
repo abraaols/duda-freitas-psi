@@ -11,3 +11,62 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 /* Visual QA 01 */
 h1,h2,h3,.brand b,.tag,.quote,.about-quote strong,.aside-copy>p,.form-step legend,.mini-brand{letter-spacing:-.02em}.site-header,footer{background:rgba(242,240,233,.95)}.cards{border-radius:32px;overflow:hidden;background:rgba(247,244,237,.5)}.icon{font-weight:300}.formpage{border-radius:40px;overflow:hidden}.field input,.field textarea,.choice span{border-color:rgba(91,99,81,.18)}
+
+/* Visual QA 02 — mobile screenshots */
+@media(max-width:680px){
+  .site-header{height:86px;padding:0 22px;position:relative}
+  .site-header .brand b{font-size:23px}
+  .site-header .brand span{font-size:9px}
+  .site-header .btn-small{font-size:12px;padding:13px 17px}
+  .hero{min-height:auto}
+  .hero-copy{padding:70px 24px 48px}
+  .hero h1{font-size:clamp(44px,12.6vw,58px);line-height:.94;margin:31px 0 28px}
+  .lead{font-size:16px;line-height:1.65}
+  .hero-btn{width:100%;min-width:0;padding:18px 24px}
+  .trust{display:grid;grid-template-columns:1fr 1fr;gap:20px 14px;margin-top:38px}
+  .portrait{height:auto;aspect-ratio:4/5;min-height:0;margin:0 0 0 22px;padding:0 22px 0 0;overflow:hidden}
+  .portrait-shape{inset:0 0 0 7%;border-radius:42% 0 0 0}
+  .portrait img{border-radius:42% 0 0 0;object-position:center 28%}
+  .portrait-note{right:4%;top:12%;font-size:17px}
+  .botanical{font-size:84px;right:8%;bottom:9%}
+  .help{padding-top:72px;padding-bottom:72px}
+  .help>.eyebrow{font-size:9px}
+  .section-head h2{font-size:42px}
+  .cards article{min-height:255px;display:flex;flex-direction:column;justify-content:center}
+  .cards p{font-size:12px}
+  .about-wrap{padding:40px 22px 70px}
+  .about{border-radius:32px}
+  .about-visual{min-height:0;aspect-ratio:4/5}
+  .about-copy{padding:48px 24px 55px}
+  .about-copy h2{font-size:49px}
+  .about-copy>p:last-of-type{font-size:16px;line-height:1.7}
+  .outline{width:100%;justify-content:space-between;padding:16px 22px}
+  .process{padding:70px 24px}
+  .process h2{font-size:45px}
+  .process-list article{grid-template-columns:42px 1fr;padding:24px 0}
+  .cta{margin:22px 16px 30px;border-radius:34px;padding:42px 25px}
+  .cta h2{font-size:38px}
+  .lightbtn{padding:18px 24px}
+  footer{padding:32px 22px 48px}
+  .link-shell{padding:18px 14px 28px;align-items:start}
+  .linkcard{padding:32px 22px 38px;border-radius:36px}
+  .mini-brand{margin-bottom:22px}
+  .avatar-wrap{width:150px;height:150px}
+  .linkcard h1{font-size:36px;margin-top:22px}
+  .tag{font-size:25px;margin:30px 0}
+  .link-buttons>a,.pending-link{min-height:58px;padding:0 20px}
+  .quote{margin-top:36px}
+  .form-body{padding:14px}
+  .formpage{border-radius:32px;overflow:hidden}
+  .form-aside{grid-template-columns:90px 1fr;padding:24px 22px 26px}
+  .form-brand{padding-bottom:20px}
+  .aside-photo{width:76px;height:76px}
+  .aside-copy>p{font-size:25px}
+  .formbox{padding:30px 22px 42px}
+  .formbox h1{font-size:42px;line-height:.95}
+  .form-intro{font-size:14px}
+  .form-step legend{font-size:27px;margin-bottom:28px}
+  .field{font-size:12px;margin:18px 0}
+  .field input,.field textarea{padding:16px;border-radius:14px}
+  .submit,.back-btn{padding:16px 24px}
+}
